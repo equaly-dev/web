@@ -1,21 +1,18 @@
 import React from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
-import {
-  ChartBarIcon,
-  ArrowRightIcon,
-  PlayIcon,
-  LightBulbIcon,
-  PresentationChartLineIcon,
-  ShieldCheckIcon,
-  BoltIcon,
-  CalendarDaysIcon,
-  BellAlertIcon,
-  ArrowUpIcon
-} from '@heroicons/react/24/outline';
-import {
-  ChartBarIcon as ChartBarSolidIcon,
-  PlayIcon as PlaySolidIcon
-} from '@heroicons/react/24/solid';
+import ChartBarIcon from '@heroicons/react/24/outline/ChartBarIcon';
+import ArrowRightIcon from '@heroicons/react/24/outline/ArrowRightIcon';
+import PlayIcon from '@heroicons/react/24/outline/PlayIcon';
+import LightBulbIcon from '@heroicons/react/24/outline/LightBulbIcon';
+import PresentationChartLineIcon from '@heroicons/react/24/outline/PresentationChartLineIcon';
+import ShieldCheckIcon from '@heroicons/react/24/outline/ShieldCheckIcon';
+import BoltIcon from '@heroicons/react/24/outline/BoltIcon';
+import CalendarDaysIcon from '@heroicons/react/24/outline/CalendarDaysIcon';
+import BellAlertIcon from '@heroicons/react/24/outline/BellAlertIcon';
+import ArrowUpIcon from '@heroicons/react/24/outline/ArrowUpIcon';
+
+import ChartBarSolidIcon from '@heroicons/react/24/solid/ChartBarIcon';
+import PlaySolidIcon from '@heroicons/react/24/solid/PlayIcon';
 
 import { Assets, SupportAndEducation, MobileApp, CTA, Footer } from './components';
 

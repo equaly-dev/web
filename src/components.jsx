@@ -1,21 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {
-    CurrencyDollarIcon,
-    ChartPieIcon,
-    TableCellsIcon,
-    GlobeAmericasIcon,
-    FireIcon,
-    BanknotesIcon,
-    BookOpenIcon,
-    EnvelopeIcon,
-    PhoneIcon,
-    ChatBubbleLeftEllipsisIcon,
-    GlobeAltIcon,
-    AcademicCapIcon,
-    CheckCircleIcon
-} from '@heroicons/react/24/outline';
-import { PlayIcon } from '@heroicons/react/24/solid';
+import CurrencyDollarIcon from '@heroicons/react/24/outline/CurrencyDollarIcon';
+import ChartPieIcon from '@heroicons/react/24/outline/ChartPieIcon';
+import TableCellsIcon from '@heroicons/react/24/outline/TableCellsIcon';
+import GlobeAmericasIcon from '@heroicons/react/24/outline/GlobeAmericasIcon';
+import FireIcon from '@heroicons/react/24/outline/FireIcon';
+import BanknotesIcon from '@heroicons/react/24/outline/BanknotesIcon';
+import BookOpenIcon from '@heroicons/react/24/outline/BookOpenIcon';
+import EnvelopeIcon from '@heroicons/react/24/outline/EnvelopeIcon';
+import PhoneIcon from '@heroicons/react/24/outline/PhoneIcon';
+import ChatBubbleLeftEllipsisIcon from '@heroicons/react/24/outline/ChatBubbleLeftEllipsisIcon';
+import GlobeAltIcon from '@heroicons/react/24/outline/GlobeAltIcon';
+import AcademicCapIcon from '@heroicons/react/24/outline/AcademicCapIcon';
+import CheckCircleIcon from '@heroicons/react/24/outline/CheckCircleIcon';
+
+import PlayIcon from '@heroicons/react/24/solid/PlayIcon';
 
 export function Assets() {
     const categories = [
